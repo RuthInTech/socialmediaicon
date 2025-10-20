@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, #dce2ef, #955252);
+
+
+
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.social-container {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    background: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px, 6px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    color: #000;
+    font-size: 24px;
+
+
+}
+
+.icon:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.25);
+
+}
